@@ -9,9 +9,9 @@ var cars = [];
 
 function preload() {
   backgroundImage = loadImage("./assets/planodefundo.png");
-  car1_img = loadImage("../assets/car1.png");
-  car2_img = loadImage("../assets/car2.png");
-  track = loadImage("../assets/PISTA.png");
+  car1_img = loadImage("./assets/car1.png");
+  car2_img = loadImage("./assets/car2.png");
+  track = loadImage("./assets/PISTA.png");
   fuelImage = loadImage("./assets/fuel.png");
   powerCoinImage = loadImage("./assets/goldCoin.png");
   obstacle1Image = loadImage("./assets/obstacle1.png");
